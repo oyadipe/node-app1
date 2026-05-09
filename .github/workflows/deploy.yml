@@ -7,7 +7,7 @@ on:
     deploy:
     runs-on: ubuntu-latest
 
-     steps:
+    steps:
      - name: Deploy via SSH
      uses: appleboy/ssh-action@v0.1.6
      with:
